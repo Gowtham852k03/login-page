@@ -19,7 +19,7 @@ class LoginPage extends React.Component {
         <div className="forms-container">
           <div className="signin-signup">
             <form action="#" className="sign-in-form">
-              <h2 className="title">Sign in</h2>
+              <h2 className="title">Student Login</h2>
               <div className="input-field">
                 <div className="icon">
                 <FontAwesomeIcon icon={faUser} />
@@ -52,7 +52,7 @@ class LoginPage extends React.Component {
               </div>
             </form>
             <form action="#" className="sign-up-form">
-              <h2 className="title">Sign up</h2>
+              <h2 className="title">Teachers Login</h2>
               <div className="input-field">
               <div className="icon">
               <FontAwesomeIcon icon={faUser} />
@@ -60,13 +60,7 @@ class LoginPage extends React.Component {
                 
                 <input type="text" placeholder="Username" />
               </div>
-              <div className="input-field">
-              <div className="icon">
-              <FontAwesomeIcon icon={faEnvelope} />
-                </div>
-                
-                <input type="email" placeholder="Email" />
-              </div>
+             
               <div className="input-field">
               <div className="icon">
               <FontAwesomeIcon icon={faLock} />
@@ -99,8 +93,7 @@ class LoginPage extends React.Component {
             <div className="content">
               <h3>New here ?</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                ex ratione. Aliquid!
+                HELLO!!!
               </p>
               <button className="btn transparent" onClick={this.handleSignUpClick}>
                 Teachers Login
@@ -112,8 +105,7 @@ class LoginPage extends React.Component {
             <div className="content">
               <h3>One of us ?</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                laboriosam ad deleniti.
+                HELLO!!
               </p>
               <button className="btn transparent" onClick={this.handleSignInClick}>
                 Sign in
